@@ -1,9 +1,6 @@
-def MultiplicativePersistence(num)
+def AdditivePersistence(num)
 
-  # code goes here
-  
-  #if num > = 10
-  arr = Array.new
+ arr = Array.new
   
   loop do
     if num >= 10
@@ -18,9 +15,30 @@ def MultiplicativePersistence(num)
 
     #  num = num.split('.')
   return arr.count
+  # code goes here
+
          
 end
    
 # keep this function call here 
 # to see how to enter arguments in Ruby scroll down   
-MultiplicativePersistence(STDIN.gets) 
+AdditivePersistence(STDIN.gets)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
