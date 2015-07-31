@@ -1,17 +1,19 @@
 def PowersofTwo(num)
 
   # code goes here
-  if num.modulo(2) == 0
-    num = true
-  else
-    num = false
+
+  while num > 1 do
+    if(num % 2 != 0)
+      return "false"
+    end
+    num /=2
   end
+
+  return "true"
   
-  return num 
          
 end
    
 # keep this function call here 
 # to see how to enter arguments in Ruby scroll down   
-PowersofTwo(STDIN.gets)           
-
+PowersofTwo(STDIN.gets) 
